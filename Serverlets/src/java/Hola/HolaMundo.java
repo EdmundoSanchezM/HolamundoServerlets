@@ -15,8 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author Alumno
+ * Servelet que imprime un HOLAMUNDO.
+ * @author Sanchez Mendez Edmundo Josue, Rodriguez Morua Genaro
+ * @version 1.0 20/08/17
  */
 @WebServlet(urlPatterns = {"/HolaMundo"})
 public class HolaMundo extends HttpServlet {
